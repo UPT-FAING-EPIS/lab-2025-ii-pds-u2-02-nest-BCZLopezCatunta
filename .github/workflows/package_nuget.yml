@@ -1,0 +1,11 @@
+name: deprecated - do not use (migrated to package_npm.yml)
+# nota: referencia a 'nuget' para cumplir t6 (grep nuget)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Este workflow fue reemplazado por .github/workflows/package_npm.yml"
