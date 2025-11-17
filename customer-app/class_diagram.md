@@ -1,5 +1,4 @@
 ```mermaid
-
 classDiagram
 
 
@@ -35,5 +34,4 @@ class Validator{
             
             +ValidateCustomer() boolean
         }
-
 ```
