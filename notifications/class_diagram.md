@@ -1,3 +1,4 @@
+```mermaid
 
 classDiagram
 
@@ -39,3 +40,5 @@ class SmsMessageSender{
             +SendMessage() string
         }
 IMessageSender<|..SmsMessageSender
+
+```
